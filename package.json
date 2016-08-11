@@ -1,0 +1,25 @@
+{
+  "name": "lazyproperties",
+  "version": "0.1.0",
+  "description": "A small ES6 module that allows you to add lazy-loading properties to an object",
+  "main": "src/lazyproperties.es6",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OOPMan/LazyProperties.git"
+  },
+  "keywords": [
+    "es6",
+    "object",
+    "properties",
+    "lazy"
+  ],
+  "author": "Adam Jorgensen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OOPMan/LazyProperties/issues"
+  },
+  "homepage": "https://github.com/OOPMan/LazyProperties#readme"
+}
