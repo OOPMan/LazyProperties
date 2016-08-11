@@ -4,7 +4,7 @@
   "description": "A small ES6 module that allows you to add lazy-loading properties to an object",
   "main": "src/lazyproperties.es6",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require babel-core/register test/*.es6"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/OOPMan/LazyProperties/issues"
   },
-  "homepage": "https://github.com/OOPMan/LazyProperties#readme"
+  "homepage": "https://github.com/OOPMan/LazyProperties#readme",
+  "devDependencies": {
+    "babel-cli": ">=6.9.0",
+    "babel-preset-es2015": ">=6.9.0",
+    "mocha": ">=2.0.0",
+    "unit.js": ">=1.0.2"
+  }
 }
